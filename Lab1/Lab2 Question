@@ -1,0 +1,9 @@
+1) Write a program that calculates the area of a donut (i.e., there is a big circle with a
+small circle inside it, calculate the area that is taken up by the space between these two
+circles). Write a method areaCircle() which returns the area of a circle.
+
+2) Write a program that computes the distance (c) between two points (a and b). Write
+your own method called square that takes a number of type double as an argument and
+returns the square of that number. Following is the way to calculate the straight line
+distance between two points:
+Square root of both points: c = √((x2 – x1)² + (y2 – y1)²)

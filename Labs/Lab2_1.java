@@ -15,7 +15,7 @@ public class Lab2_1{
         return smallerCircleArea;
     }
 
-    public static double donutArea(double biggerCircleArea, double smallerCircleArea){
+    public static double areaCircle(double biggerCircleArea, double smallerCircleArea){
         return biggerCircleArea - smallerCircleArea;
     }
     public static void main(String[] args){
@@ -30,7 +30,7 @@ public class Lab2_1{
         double biggerCircleArea = biggerCircle(bigCircleRadius);
         double smallerCircleArea = smallerCircle(smallCircleRadius);
 
-        double totalAreaOfDonut = donutArea(biggerCircleArea, smallerCircleArea);
+        double totalAreaOfDonut = areaCircle(biggerCircleArea, smallerCircleArea);
         System.out.printf("Area of the Donut is = %.2f" , totalAreaOfDonut);
     }
 

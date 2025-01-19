@@ -1,3 +1,4 @@
+//Question 1
 import java.util.Scanner;
 
 public class Lab2_1{

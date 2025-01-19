@@ -1,0 +1,65 @@
+Q1: Write a program that tells what day of the week someone’s birthday falls on this year. Write a
+method named getDayOfWeek that takes an int parameter, representing what day of the year it is, and
+returns a string like “Monday”. For example, for 2004, a leap year, the first day of the year was on
+Thursday. The thirty-second day of the year (February 1, 2004) was a Saturday, so getDayOfWeek(1)
+should return “Thursday” and getDayOfWeek(32) should return “Sunday”. (Hint: if you divide the day
+of the year by 7, the remainder will always be a numeric value between 0 and 6, which can be made to
+correspond to the days of the week).
+
+As part of this program, you’ll also want a method that takes the month and day as parameters and re-
+turns what day of the year it is. For example, getDay(1,1) should return 1; getDay (2,1) should return 32;
+and getDay (12,31) should return 365. (Hint: If the month is 3, and the day is 5, you have to add the
+number of days in January plus the number of days in February to 5 to get the result: 31 + 28 + 5 = 64.)
+
+Q2: Write a Java method that shifts a char by n places in the alphabet, wrapping around to the start of the
+alphabet, if necessary. For example, shift('a',2) should return ' c ' ; shift('y',2) should return ' a ' . This
+method can be used to create a Caesar cipher, in which every letter in a message is shifted by n places.
+
+Q3: Write a method that converts its boolean parameter to a String . For example, boolToString(true)
+should return "true".
+
+Q4: Write a Java application that prints the following table:
+N SQUARE CUBE
+1 1 1
+2 4 8
+3 9 27
+4 16 64
+5 25 125
+
+Q5: In the main method, create a menu to test the following methods.
+1- Write a method that is passed two parametersa char Ch and an int N and prints a string of N Chs .
+
+2- Write a method that uses a nested for loop to print the following multiplication table:
+1 2 3 4 5 6 7 8 9
+1 1
+2 2 4
+3 3 6 9
+4 4 8 12 16
+5 5 10 15 20 25
+6 6 12 18 24 30 36
+7 7 14 21 28 35 42 49
+9 8 16 24 32 40 48 56 64
+9 9 18 27 36 45 54 63 72 81
+
+3- Write methods that use nested for loops to print the following patterns. Your method should use
+the following statement to print the patterns: System.out.print(’#’).
+
+Q6: Write a Java application that lets the user input a sequence of consecutive numbers. In other
+words, the program should let the user keep entering numbers as long as the current number is
+one greater than the previous number.
+
+Q7: The Nuclear Regulatory Agency wants you to write a program that will help determine how
+long certain radioactive substances will take to decay. The program should let the user input two
+values: a string giving the substance's name and its half-life in years. (A substance's half-life is
+the number of years required for the disintegration of half of its atoms.) The program should
+report how many years it will take before there is less than 2 percent of the original number of
+atoms remaining.
+
+Q8: Write an application that prompts the user for four values and draws corresponding bar
+graphs. For example, if the user inputs 5, 2, 3, and 4, the program should display
+**
+** **
+** ** **
+** ** ** **
+** ** ** **
+-------------

@@ -1,8 +1,9 @@
+//Question 2
 import java.util.Scanner;
 
 public class Lab2_2{
     public static double square(double x){
-        return x*x;
+        return Math.pow(x,2);
     }
 
     public static double distance(double X, double Y){
